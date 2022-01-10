@@ -29,7 +29,7 @@ public class SelectionSort extends AbstractSort {
 
     for (int i = 0; i < arr.length - 1; i++) {
       minIndex = i;
-      transitions.add(colorCNode(arr, NEW_MIN_INDEX_COLOR, minIndex));
+      transitions.add(colorCNode(arr, HIGHLIGHT_COLOR, minIndex));
 
       for (int j = i + 1; j < arr.length; j++) {
         transitions.add(colorCNode(arr, SELECT_COLOR, j));
@@ -39,7 +39,7 @@ public class SelectionSort extends AbstractSort {
             transitions.add(colorCNode(arr, minIndex, j, HIGHLIGHT_COLOR, HIGHLIGHT_COLOR));
 
           } else {
-            transitions.add(colorCNode(arr, minIndex, j, START_COLOR, NEW_MIN_INDEX_COLOR));
+            transitions.add(colorCNode(arr, minIndex, j, START_COLOR, HIGHLIGHT_COLOR));
           }
           minIndex = j;
         } else {
