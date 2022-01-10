@@ -1,4 +1,4 @@
-Conference Room Booking Software
+Sorting Visualizer
 ==============================================
 ### Description
 
