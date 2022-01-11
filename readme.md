@@ -1,6 +1,9 @@
 Sorting Visualizer
 ==============================================
 ### Description
+Sorting algorithms visualizer using javafx transitions. 
+#### Note:
+Each algorithm's animation depicts characteristic qualities of said algorithm (e.g. the pivot in Quick Sort). Therefore, an algorithm's animation-duration is not necessarily correlated to the algorithms run-time complexity.
 
 ### Requirements
 * Java SDK 17.0.1
